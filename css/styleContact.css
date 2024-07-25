@@ -1,0 +1,30 @@
+#contact {
+    padding: 80px 20px; /* Add padding for content below fixed header */
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#contact h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#contact p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 8px;
+}
