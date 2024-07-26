@@ -1,0 +1,38 @@
+.social-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.social-section {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white; /* Assuming text color to be white for better contrast */
+}
+.social-section h2 {
+    margin: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    flex-grow: 1;
+
+    text-align: center;
+}
+.social-section a {
+    color: inherit;
+    font-size: 2em;
+    text-decoration: none;
+}
+.social-section a:hover {
+    opacity: 0.8; /* Adjust hover effect for better visual feedback */
+}
+.instagram {
+    background-color: #0077b5;
+}
+.github {
+    background-color: #333;
+}
+.youtube {
+    background-color: red;
+}
